@@ -1,0 +1,1112 @@
+:root {
+    --roblox: white;
+    --mainfont:system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+.chaircandle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    gap: 30px;
+  }
+  
+  .white {
+    width: 490px;
+    height: 400px;
+    background-color: #fffbd8;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  
+  .random .white label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:  48px;
+    font-weight: 200;
+}
+
+.beans span{
+    font-family:var(--mainfont);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.1px ;
+}
+.white .beans{
+    line-height: 1.2;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    text-align: center !important; 
+    transform: translateX(-30px) ;
+    align-items: center;
+    justify-content: center;
+}
+
+.beans .shopnow{
+    width: 112px;
+    height: 46px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin-top: 30px;
+    font-family: var(--mainfont);
+    font-size: 16px;
+    scale: 1;
+    transition: scale 0.2s ease, background-color 0.2s ease;
+}
+
+.beans .shopnow:hover{
+    scale: 1.10;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: scale 0.2s ease, background-color 0.2s ease;
+}
+  .random {
+    position: relative;
+    width: 900px;
+    height: 400px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    transform: translateX(40px);
+  }
+  .chair {
+    position: absolute;
+    right: 0;
+    width: 490px;
+    background: url("assets/ij_1020x810.6565047903_oojl4vxa.avif");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    border-radius: 12px;
+    mask-image: radial-gradient(
+      circle at right center,
+      black 90%,
+      transparent 30%
+    );
+    -webkit-mask-image: radial-gradient(
+      circle at right center,
+      black 90%,
+      transparent 30%
+    );
+  }
+  .chaircandle .secondphoto {
+    width: 400px;
+    height: 400px;
+    background: url("assets/il_400x400.5753067356_crfd.webp");
+    border-radius: 12px;
+    display: flex;
+    align-items: end;
+    transform: translateX(-30px);
+  }
+  .random:hover {
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.6);
+    transition: box-shadow 0.3s ease;
+  }
+
+  .secondphoto .labels {
+    display: flex;
+    flex-direction: column;
+    color: rgb(104, 92, 68);
+    font-family:var(--mainfont);
+    text-transform: capitalize;
+    margin: 0 0 15px 20px;
+  }
+  
+  .chaircandle .secondphoto:hover {
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.6);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .secondphoto .vintage {
+    font-size: 27px;
+    font-weight: 700;
+  }
+  
+  .secondphoto .Shop {
+    font-size: 17px;
+    font-weight: 700;
+  }
+
+  /*second part*/
+  .occasion{
+    width: 100%;
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .occasion .texture{
+    font-size: 27px;
+    margin-left: 85px;
+    font-family: var(--mainfont);
+    font-weight: 600;
+  }
+
+
+  .occasion .whole{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 175px;
+    height: 200px;
+    padding-top: 4px;
+  }
+  .occasion .shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 3px;
+  }
+  .occasion .item1{
+    width: 160px;
+    height: 160px;
+    background-image: url(assets/housewarming.webp);
+    border-radius: 50%;
+    background-size: contain;
+  }
+  .occasion .whole:nth-child(1){
+    width: 175px;
+    height: 200px;
+    border-radius: 15px;
+    transition:  box-shadow .2s ease;
+  }
+  .occasion .whole:nth-child(1):hover{
+    width: 175px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px black;
+    transition:   box-shadow .2s ease;
+  }
+
+  .occasion .whole:nth-child(2){
+    width: 175px;
+    height: 200px;
+    border-radius: 15px;
+    transition: box-shadow .2s ease;
+  }
+
+  .occasion .whole:nth-child(2):hover{
+    width: 175px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px black;
+    transition: box-shadow .2s ease;
+  }
+  .occasion .whole:nth-child(3){
+    width: 175px;
+    height: 200px;
+    border-radius: 15px;
+    transition:  box-shadow .2s ease;
+  }
+
+  .occasion .whole:nth-child(3):hover{
+    width: 175px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px black;
+    transition: box-shadow .2s ease;
+  }
+  .occasion .whole:nth-child(4){
+    width: 175px;
+    height: 200px;
+    border-radius: 15px;
+    transition: box-shadow .2s ease;
+  }
+
+  .occasion .whole:nth-child(4):hover{
+    width: 175px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px black;
+    transition: box-shadow .2s ease;
+  }
+  .occasion .whole:nth-child(5){
+    width: 175px;
+    height: 200px;
+    border-radius: 15px;
+    transition:   box-shadow .2s ease;
+  }
+
+  .occasion .whole:nth-child(5):hover{
+    width: 175px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px black;
+    transition: box-shadow .2s ease;
+  }
+  .occasion .whole:nth-child(6){
+    width: 175px;
+    height: 200px;
+    border-radius: 15px;
+    transition:   box-shadow .2s ease;
+  }
+
+  .occasion .whole:nth-child(6):hover{
+    width: 175px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px black;
+    transition: box-shadow .2s ease;
+  }
+
+
+
+.occasion .item2{
+  background-image: url(assets/il_300x300.4695292104_btge.webp);
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-size: contain;
+}
+.occasion .item3{
+  background-image: url(assets/il_300x300.5106717850_qpd7.webp);
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-size: contain;
+}
+.occasion .item4{
+  background-image: url(assets/il_300x300.5999339700_1je0.webp);
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-size: contain;
+}
+.occasion .item5{
+  background-image: url(assets/il_300x300.3571041628_d0kp.webp);
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-size: contain;
+}
+.occasion .item6{
+  background-image: url(assets/ij_300x300.6586968809_q0zid5sd.webp);
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-size: contain;
+}
+
+
+
+  .whole .name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    font-family: var(--mainfont);
+    gap: 5px;
+    margin-top:6px;
+  }
+
+  /*third part*/
+
+  .daily{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction:column;
+    
+  }
+
+  .update{
+    font-size: 27px;
+    margin-left: 130px;
+    font-family: var(--mainfont);
+    font-weight: 600;
+  }
+  
+  .shop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .deal{
+    width: 256px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 0 10px;
+    transition: box-shadow .2s ease;
+  }
+
+  .deal1{
+    width: 256px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 0 10px;
+    margin-top: 16px;
+    transition: box-shadow .2s ease;
+  }
+  .deal1:hover{
+    box-shadow: 0px 0px 5px 0px black;
+    transition: box-shadow .2s ease;
+  }
+  .deal:hover{
+    box-shadow: 0px 0px 5px 0px black;
+    transition: box-shadow .2s ease;
+  }
+
+  .photo{
+    width: 235px;
+    height: 235px;
+    border-radius:10px;
+    margin-top: 10px;
+    background-image: url(assets/photo1.webp);
+    background-size: contain;
+  }
+
+  .cost{
+    display: flex;
+    flex-direction: row;
+    transform: translateX(-20px);
+  }
+
+   .info{
+    font-size: 13px;
+    font-family:var(--mainfont);
+    transform: translateX(-14px);
+  }
+  .cost .price{
+    color: green;
+    font-size: 16px;
+    font-weight: 600;
+    font-family:var(--mainfont);
+  }
+
+  .cost .discount{
+    text-decoration: line-through solid 1px;
+    font-size: 13px;
+    color: #02020286;
+    font-family:var(--mainfont);
+  }
+
+.cost .percentage{
+  font-size: 13px;
+  color: #02020286;
+  font-family:var(--mainfont);
+}
+
+.percentage, .discount, .price{
+  margin:0px 0px 0px 5px;
+  font-family: var(--mainfont);
+}
+
+.deal .rating{
+  font-size: 13px;
+  font-family: var(--mainfont);
+}
+
+.deal1 .rating{
+  font-size: 13px;
+  font-family: var(--mainfont);
+}
+.freeshipping{
+ position: absolute;
+  font-size: 13px;
+  font-family: var(--mainfont);
+  left:100;
+}
+
+
+.deal .analog{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  margin-right: 150px;
+  position: relative;
+}
+
+.deal1 .analog{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  margin-right: 150px;
+  position: relative;
+}
+
+ .shop .photo2{
+  width: 235px;
+  height: 235px;
+  border-radius:10px;
+  margin-top: 10px;
+  background-image: url(assets/photo2webp.webp);
+  background-size: contain;
+}
+.shop .photo3{
+  width: 235px;
+  height: 235px;
+  border-radius:10px;
+  margin-top: 10px;
+  background-image: url(assets/photo3.avif);
+  background-size: contain;
+}
+.shop .photo4{
+  width: 235px;
+  height: 235px;
+  border-radius:10px;
+  margin-top: 10px;
+  background-image: url(assets/photo4.avif);
+  background-size: contain;
+}
+
+.shop .photo5{
+  width: 235px;
+  height: 235px;
+  border-radius:10px;
+  margin-top: 10px;
+  background-image: url(assets/photo5.avif);
+  background-size: contain;
+}
+
+.freeship{
+  background-color: rgba(87, 206, 87, 0.605);
+  border-radius: 50px;
+  padding: 1px 5px;
+  font-size: 11px;
+  font-family: var(--mainfont);
+  margin-top: 3px;
+}
+
+/*first section where boxes are aligned*/
+
+.box {
+  flex: 0 0 314px;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  height: 314px;
+  border-radius: 15px;
+  border: none;
+  margin:10px;
+}
+
+.container .box:nth-child(2){
+  background-image: url(assets/il_600x600.1484917336_lgw3.avif);
+  background-size: 100%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  transition: background-size 0.3s ease; 
+}
+
+.container .box:nth-child(2):hover{
+    background-size: 105%;
+background-position: center center; 
+}
+.container .box:nth-child(3){
+  background-image: url(assets/photo2webp.webp);
+  background-size: 100%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  transition: background-size 0.3s ease; 
+
+}
+.container .box:nth-child(3):hover{
+  background-size: 105%;
+background-position: center center; 
+}
+.container .box:nth-child(4){
+  background-image: url(assets/beans3.webp);
+  background-size: 100%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  transition: background-size 0.3s ease; 
+}
+.container .box:nth-child(4):hover{
+  background-size: 105%;
+background-position: center center; 
+}
+.container .box:nth-child(5){
+  background-image: url(assets/beanssss.avif);
+  background-size: 150%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  transition: background-size 0.3s ease; 
+}
+.container .box:nth-child(5):hover{
+  background-size: 170%;
+background-position: center center; 
+}
+
+.container .box:nth-child(6){
+  background-image: url(assets/beans5.webp);
+  background-size: 100%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  transition: background-size 0.3s ease; 
+}
+.container .box:nth-child(6):hover{
+  background-size: 105%;
+background-position: center center; 
+}
+.container .box:nth-child(7){
+  background-image: url(assets/last.png);
+  background-size: cover;
+  background-size: 100%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  transition: background-size 0.3s ease; 
+
+}
+.container .box:nth-child(7):hover{
+  background-size: 105%;
+background-position: center center; 
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-right:9px;
+}
+
+.box.wide {
+  flex: 0 0 648px; 
+  height: 314px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  text-align: start;
+  font-family: var(--mainfont);
+}
+
+
+
+
+.box.wide .Storage{
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom:6px;
+}
+
+.box.wide .unique{
+  width: 220px;
+  border: none;
+  height: 50px;
+  border-radius:50px ;
+  padding: 12px 18px;
+  font-family: var(--mainfont);
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: box-shadow 0.2s ease;
+}
+
+.box.wide .unique:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.275);
+    transition: box-shadow 0.2s ease;
+}
+
+/*last section there boxes are aligned*/
+.forher{
+  display: flex;
+  flex-direction: row;
+} 
+        .example {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top:40px;
+        }
+
+        .example .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            
+        }
+
+        .example .grid .bigbox{
+          grid-column: span 2;
+        }
+
+        .example .grid .box1:not(.bigbox) {
+            width: 205px;
+            height: 205px;
+            border-radius: 12px;
+            margin-bottom: 10px;
+        }
+
+        .example .outerbox {
+            background-image: url(assets/biggest.avif);
+            height: 430px;
+            width: 424px;
+            border-radius: 12px;
+            transform: translateX(-15px);
+            display: flex;
+          justify-content: start;
+         align-items: end;
+         background-size: 100%; 
+         background-position: center; 
+         transition: background-size 0.3s ease; 
+        }
+
+        .example .outerbox:hover{
+          background-size: 105%;
+      background-position: center center; 
+        }
+        .example .outerbox .US1{
+          padding:3px 8px;
+          background-color: white;
+          border: 1px solid gray;
+          border-radius: 20px;
+          margin-bottom: 10px;
+          font-family: var(--mainfont);
+          color: #222222;
+          font-weight: 600;
+          display: flex;
+          align-items: center;
+          margin-left: 10px;
+        }
+        .example .outerbox .US1 span{
+          text-decoration: line-through;
+          color: #222222ba;
+          margin-left: 5px;
+        }
+        .example .grid .bigbox{
+            height: 205px;
+            width: 424px;
+            border-radius: 6px;
+            transform: translate(-10px,  -10px);
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: center;
+            font-family: var(--mainfont);
+        }
+
+        .example .grid .box1:nth-child(2){
+          background-image: url(assets/realframe.avif);
+          display: flex;
+          justify-content: center;
+          align-items: end;
+          background-size: 100%; 
+          background-position: center; 
+          transition: background-size 0.3s ease; 
+        }
+.example .grid .box1:nth-child(2):hover{
+          background-size: 105%;
+      background-position: center center; 
+        }
+        
+
+        .example .grid .box1:nth-child(2) .US1{
+          padding:3px 8px;
+          background-color: white;
+          border: 1px solid gray;
+          border-radius: 30px;
+          margin-bottom: 10px;
+          font-family: var(--mainfont);
+          color: #222222;
+          font-weight: 600;
+          display: flex;
+          align-items: center;
+          
+        }
+
+        .example .grid .box1:nth-child(2) .US1 span{
+          text-decoration: line-through;
+          color: #222222ba;
+          margin-left: 5px;
+        }
+        .example .grid .box1:nth-child(3){
+          background-image: url(assets/frame2.avif);
+          display: flex;
+          justify-content: center;
+          align-items: end;
+          background-size: 100%; 
+          background-position: center; 
+          transition: background-size 0.3s ease; 
+        }
+
+        .example .grid .box1:nth-child(3):hover{
+          background-size: 105%;
+      background-position: center center; 
+        }
+        .example .grid .box1:nth-child(3) .US1{
+          padding:3px 8px;
+          background-color: white;
+          border: 1px solid gray;
+          border-radius: 30px;
+          margin-bottom: 10px;
+          font-family: var(--mainfont);
+          color: #222222;
+          font-weight: 600;
+          display: flex;
+          align-items: center;
+        }
+        .example .grid .box1:nth-child(3) .US1 span{
+          text-decoration: line-through;
+          color: #222222ba;
+          margin-left: 5px;
+        }
+        .example .grid .box1:nth-child(4){
+          background-image: url(assets/realfframe2.avif);
+          background-position: 50%;
+          display: flex;
+          justify-content: start;
+          align-items: end;
+          background-size: 100%; 
+          background-position: center; 
+          transition: background-size 0.3s ease;
+        }
+
+        .example .grid .box1:nth-child(4):hover{
+          background-size: 105%;
+      background-position: center center; 
+        }
+        
+        .example .grid .box1:nth-child(4) .US1{
+          padding:3px 8px;
+          background-color: white;
+          border: 1px solid gray;
+          border-radius: 30px;
+          margin-bottom: 10px;
+          font-family: var(--mainfont);
+          color: #222222;
+          font-weight: 600;
+          display: flex;
+          align-items:start;
+          margin-left: 10px;
+        }
+        .example .grid .box1:nth-child(4) .US1 span{
+          text-decoration: line-through;
+          color: #222222ba;
+          margin-left: 5px;
+        }
+        .example .grid .box1:nth-child(5){
+          background-image: url(assets/realframe3.avif);
+          display: flex;
+          justify-content: start;
+          align-items: end;
+          background-size: 100%; 
+          background-position: center; 
+          transition: background-size 0.3s ease;
+        }
+        .example .grid .box1:nth-child(5):hover{
+          background-size: 105%;
+      background-position: center center; 
+        }
+        .example .grid .box1:nth-child(5) .US1{
+          padding:3px 8px;
+          background-color: white;
+          border: 1px solid gray;
+          border-radius: 30px;
+          margin-bottom: 10px;
+          font-family: var(--mainfont);
+          color: #222222;
+          font-weight: 600;
+          display: flex;
+          align-items: center;
+          margin-left: 10px;
+        }
+        .example .grid .box1:nth-child(5) .US1 span{
+          text-decoration: line-through;
+          color: #222222ba;
+          margin-left: 5px;
+        }
+        .example .grid .box1:nth-child(6){
+          background-size: 100%; 
+          background-position: center; 
+          transition: background-size 0.3s ease;
+          background-image: url(assets/realframe4.avif);
+          display: flex;
+          justify-content: center;
+          align-items: end;
+        }
+        .example .grid .box1:nth-child(6):hover{
+          background-size: 105%;
+      background-position: center center; 
+        }
+        .example .grid .box1:nth-child(6) .US1{
+          padding:3px 8px;
+          background-color: white;
+          border: 1px solid gray;
+          border-radius: 30px;
+          margin-bottom: 10px;
+          font-family: var(--mainfont);
+          color: #222222;
+          font-weight: 600;
+          display: flex;
+          align-items: center;
+          transform: translateX(-50px);
+        }
+        .example .grid .box1:nth-child(6) .US1 span{
+          text-decoration: line-through;
+          color: #222222ba;
+          margin-left: 5px;
+        }
+       
+       
+        .example .grid .box1:nth-child(7){
+          background-size: 100%; 
+          background-position: center; 
+          transition: background-size 0.3s ease;
+          background-image: url(assets/il_794xN.5224546762_kdas.webp);
+          display: flex;
+          justify-content: start;
+          align-items: end;
+        }
+        .example .grid .box1:nth-child(7):hover{
+          background-size: 105%;
+      background-position: center center; 
+        }
+        .example .grid .box1:nth-child(7) .US1{
+          padding:3px 8px;
+          background-color: white;
+          border: 1px solid gray;
+          border-radius: 30px;
+          margin-bottom: 10px;
+          font-family: var(--mainfont);
+          color: #222222;
+          font-weight: 600;
+          display: flex;
+          align-items: center;
+          margin-left: 10px;
+        }
+
+        .example .grid .box1:nth-child(7) .US1 span{
+          text-decoration: line-through;
+          color: #222222ba;
+          margin-left: 5px;
+        }
+
+        .example .bigbox .other{
+         
+          color: rgb(72, 72, 72);
+        }
+
+        .example .bigbox .rear{
+          font-size: 27px;
+          font-weight: 600;
+        }
+
+        .example .bigbox .rearest{
+          height: 48px;
+          border-radius: 40px;
+          width: 110px;
+          padding: 12px 10px;
+          border: none;
+          font-family: var(--mainfont);
+          font-size: 16px;
+          font-weight: 600;
+          transition: box-shadow 0.2s ease;
+        }
+
+        .example .bigbox .rearest:hover{
+          box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.471);
+          transition: box-shadow 0.2s ease;
+        }
+
+        /*last section*/
+        .extraordinary .shoptitle{
+          font-size: 27px;
+          font-family: var(--mainfont);
+          font-weight: 600;
+          margin: 0 0 20px 85px;
+        }
+        .extraordinary{
+          margin:60px 0 65px 0;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .extraordinary .boxes{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: row;
+        }
+
+        .exclusive {
+          width: 270px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          border-radius: 18px;
+          transition: box-shadow 0.3s ease;
+          padding: 0 0 15px 0;
+        }
+
+        .exclusive:hover{
+            box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.6);
+            transition: box-shadow 0.3s ease;
+          
+        }
+
+        .exclusive .img1{
+          width: 250px;
+          height: 250px;
+          background-image: url(assets/exclusive.avif);
+          margin: 13px 13px 0px 13px;
+          border-radius: 15px;
+        }
+
+        .exclusive .img2{
+          width: 250px;
+          height: 250px;
+          background-image: url(assets/img2.avif);
+          margin: 13px 13px 0px 13px;
+          border-radius: 15px;
+        }
+        .exclusive .img3{
+          width: 250px;
+          height: 250px;
+          background-image: url(assets/img3.avif);
+          margin: 13px 13px 0px 13px;
+          border-radius: 15px;
+        }
+        .exclusive .img4{
+          width: 250px;
+          height: 250px;
+          background-image: url(assets/img4.avif);
+          margin: 13px 13px 0px 13px;
+          border-radius: 15px;
+        }
+        .exclusive .img5{
+          width: 250px;
+          height: 250px;
+          background-image: url(assets/img5.avif);
+          margin: 13px 13px 0px 13px;
+          border-radius: 15px;
+        }
+        
+      
+        .exclusive .accents{
+          font-family: var(--mainfont);
+          font-size: 17px;
+          font-weight: 600;
+          transform: translateX(-30px);
+        }
+
+        .exclusive .accents1{
+          transform: translateX(-50px);
+          font-family: var(--mainfont);
+          font-size: 17px;
+          font-weight: 600;
+        }
+        /*final footer*/
+
+
+        footer{
+          width: 100%;
+          background-color: #fffbd8;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+        }
+
+        .finaltitle{
+          font-size: 42px;
+          font-family:'Times New Roman', Times, serif;
+          font-weight: 400;
+        }
+
+        .wonderful{
+          font-family: var(--mainfont);
+          font-weight: 300;
+          border-bottom:1px  solid#00000083;
+        }
+        .endingboxes{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: row;
+         width: 100%;
+         gap: 50px;
+         text-align: start;
+        }
+
+        .community{
+          display: flex;
+          flex-direction: column;
+          justify-content: start;
+          align-items: center;
+          text-align: start;
+       }
+
+       .community .iscommunitydoinggood{
+        font-size: 27px;
+        font-family: var(--mainfont);
+        margin-bottom: 15px;
+        display: flex;
+        font-weight: 600;
+       }
+
+       .story{
+        font-family: var(--mainfont);
+        line-height: 28px;
+        font-weight: 400;
+        font-size: 17px;
+       }
+
+
+        .story span{
+          border-bottom: 2px dashed #000;
+    text-decoration: none;
+        }
+
+        .haveaquestion{
+          font-size: 19px;
+          font-family:var(--mainfont);
+          font-weight: 600;
+        
+        }
+
+        .center{
+          width: 170px;
+          height: 45px;
+          border-radius: 50px;
+          background-color: #fffbd8;
+          font-weight: 600;
+          font-family: var(--mainfont);
+          margin: 12px 0px 70px 0px;
+          padding: 12px 18px;
+          font-size: 15px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: scale 0.2s ease, box-shadow .2s ease;
+        }
+        .center:hover{
+        scale: 1.01;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.356);
+        transition: scale 0.2s ease,  box-shadow .2s ease;
+  }

@@ -1,0 +1,290 @@
+:root {
+    --roblox: white;
+    --mainfont:system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+
+
+  main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+.hardest{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+  .special{
+    margin:30px 0 0 0 ;
+    font-size: 35px;
+    font-family: Merriweather;
+    font-weight: 200;
+  }
+
+  .Discover{
+    font-size: 28px;
+    font-family: var(--mainfont);
+    font-weight: 600;
+    margin:20px 0 25px 0 ;
+  }
+
+  .rowsofdivs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 35px;
+  }
+
+  .rowsofdivs .nothing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: black 3px solid;
+  }
+
+
+  .nothing{
+    height:125px;
+    display: flex;
+    align-items: center;
+    justify-content: start; 
+    width: 70px;
+  }
+  .nothing .circle{
+    border-radius: 50%;
+    font-size: 35px;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.21);
+   
+  }
+
+  .nothing .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50px;
+    text-align: center;
+    font-size:13px;
+    font-family: var(--mainfont);
+    font-weight:600;
+  }
+
+  .nothing .month{
+    color: rgba(41, 41, 41, 0.675); 
+  }
+
+  .different .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60px;
+    text-align: center;
+    font-size:13px;
+    font-family: var(--mainfont);
+    font-weight:600;
+    transform: translateY(5px);
+  }
+  .different .month{
+    color: rgba(41, 41, 41, 0.675); 
+  }
+
+    .different{
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      flex-direction: column;
+      height:125px;
+      transition: border-bottom 0.1s ease;
+      text-align: center;
+      width: 70px;
+      display: block;
+    }
+
+    .different .picture{
+      width: 64px;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 35px;
+      border-radius: 100%;
+      transform: translateY(4px);
+    }
+
+    .different:hover{
+      border-bottom: black 3px solid;
+      display: block;
+      border-bottom: visible;
+      transition: border-bottom 0.0001s ease;
+    }
+
+    .different:hover .picture{
+      background-color: rgba(0, 0, 0, 0.21);
+    }
+
+
+    .boxes{
+      margin-top: 20px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      gap: 20px;
+    }
+
+    .boxes .twobox{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .twobox .box1{
+      width: 320px;
+      height: 275px;
+      transition: box-shadow 0.3s ease;
+      border-radius: 13px;
+    }
+
+    .box1:hover{
+      box-shadow: 0 0 7px 0px rgba(0, 0, 0, 0.6);
+    transition: box-shadow 0.3s ease;
+     border-top-left-radius:13px;
+      border-top-right-radius:13px;
+    }
+
+    .box1 .photo{
+      height: 210px;
+      background-image: url(assets/il_680x540.5757890894_gibh.webp);
+      background-size: cover;
+      border-top-left-radius:13px;
+      border-top-right-radius:13px;
+    }
+   
+  
+
+    .photo2{
+      height: 315px;
+      background-image: url(assets/photo5.webp);
+      background-size: cover;
+      background-position: 50%;
+      border-top-left-radius:13px;
+      border-top-right-radius:13px;
+    }
+    .box2:hover{
+      box-shadow: 0 0 7px 0px rgba(0, 0, 0, 0.6);
+    transition: box-shadow 0.3s ease;
+    border-top-left-radius:13px;
+    border-top-right-radius:13px;
+    }
+    .photo3{
+      height: 315px;
+      background-image: url(assets/photo2.webp);
+      background-size: cover;
+      background-position: 50%;
+      border-top-left-radius:13px;
+      border-top-right-radius:13px;
+    }
+    .photo4{
+      height: 210px;
+      background-image: url(assets/photo6.webp);
+      background-size: cover;
+      background-position: 50%;
+      border-top-left-radius:13px;
+      border-top-right-radius:13px;
+    }
+    .photo5{
+      height: 210px;
+      background-image: url(assets/photo3.webp);
+      background-size: cover;
+      background-position: 50%;
+      border-top-left-radius:13px;
+      border-top-right-radius:13px;
+    }
+    .photo6{
+      height: 315px;
+      background-image: url(assets/photo7.webp);
+      background-size: cover;
+      background-position: 50%;
+      border-top-left-radius:13px;
+      border-top-right-radius:13px;
+    }
+    .photo7{
+      height: 315px;
+      background-image: url(assets/photo4.webp);
+      background-size: cover;
+      background-position: 50%;
+      border-top-left-radius:13px;
+      border-top-right-radius:13px;
+    }
+    .photo8{
+      height: 210px;
+      background-image: url(assets/photo8.webp);
+      background-size: cover;
+      background-position: 50%;
+      border-top-left-radius:13px;
+      border-top-right-radius:13px;
+    }
+    
+     .downsidetext{
+      height: 65px;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom-left-radius:13px;
+      border-bottom-right-radius:13px;
+      font-family: var(--mainfont);
+      font-weight: 600;
+      font-size: 17px;
+      border: solid rgba(188, 188, 188, 0.533) 1px;
+    }
+  
+
+
+    .twobox .box2{
+      width: 320px;
+      height: 380px;
+      border-radius: 13px;
+    }
+
+    .demo{
+      height: 48px;
+       width: 294px;
+       border-radius:30px;
+       background-color: var(--roblox);
+       font-family: var(--mainfont);
+       font-weight: 500;
+       font-size: 17px;
+       margin: 20px 0 50px 0;
+       scale: 1.0;
+       transition: 0.3s scale ease-in-out, box-shadow 0.3s ease-in-out  ;
+    }
+
+    .demo:hover{
+      scale: 1.05;
+      transition: 0.3s scale ease-in-out, box-shadow 0.3s ease-in-out  ;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.329);
+    }
+
+  .demo i{
+    margin-left: 5px;
+  }

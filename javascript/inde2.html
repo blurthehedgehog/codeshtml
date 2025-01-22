@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+</head>
+<body>
+    <div id="demo"></div>
+
+
+    <script>
+        
+//var x;
+           // for(var i = 0; i < 10; i--){
+             //   document.getElementById("demo").innerHTML += i + "<br>";
+                
+           // }
+            
+          //  document.getElementById("demo").innerHTML +="<br>";
+        
+       // var a = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,29]
+       
+        
+       // for(var i=0;i<a.length;i++){
+       //     document.getElementById("demo").innerHTML += a[i] + "<br>"
+       // }
+             
+             
+            // var a = [1,2,3,4,5,6,7,8,9]
+        //  for(let x in a){
+            // document.getElementById("demo").innerHTML += a[x] + "<br>"
+            // }
+           
+        //    var a = [1,2,3,4,5,6,7,8,9]
+            //  for (let x of a){
+            // document.getElementById("demo").innerHTML += x
+        // }
+/*
+        var sonicfriends = {
+                hedgehog:"sonic",
+                fox:"tails",
+                echidna:"knuckles",
+                blackone:"shadow",
+                whiteone:"silver",
+                pinkone:"amy",
+                
+           }
+           for(var x in sonicfriends){
+           document.getElementById("demo").innerHTML += sonicfriends[x] + "<br>"
+           }
+        
+
+           var sonicfriend = {
+                hedgehog:"sonic",
+                fox:"tails",
+                echidna:"knuckles",
+                blackone:"shadow",
+                whiteone:"silver",
+                pinkone:"amy",
+                
+           }
+           for(var x of sonicfriend){
+            document.getElementById("demo").innerHTML += x +  " "
+            }
+           
+        
+
+        // var a = 10
+        // while(a > 5) {
+            // document.getElementById("demo").innerHTML += a;
+            // a--
+        // }
+        var a = 0,b,c;
+        var b = 123
+        while(a == 0){
+            a=prompt("shemoitanet a")
+            b=prompt("shemoitanet b")
+        }
+       
+        c=prompt("shemoitanet c")
+        document.getElementById("demo").innerHTML += a;
+        */
+       /*
+        var a = 3;
+        function factorial(ricxvi){
+            var tmp=1;
+            for(var i=1;i<=ricxvi;i++){
+                tmp*=i;
+            }
+            return tmp;
+        }
+        document.getElementById("demo").innerHTML = factorial(a)
+
+        var a=1,b=1;
+        var pas = "1 1 ";
+        var tmp; 
+       var x = 10;
+       function fibonacci(digit){
+            for(var i = 3 ; i<=digit ; i++){
+                tmp = a+b;
+                a=b;
+                b=tmp;
+                pas+=b + " ";
+            }
+            return pas;
+       }
+       document.getElementById("demo").innerHTML = fibonacci(x)
+      
+       var a=0,b=1,text="",x=10;
+
+       function factorial(a,b){
+            return a+b;
+       }
+       for(var i = 1 ; i<=x ; i++){
+            text += b + " ";
+            var tmp = factorial(a,b);
+            a=b;
+            b=tmp;
+        }
+        document.getElementById("demo").innerHTML = text
+        */
+
+        var txt = "this is sparta";
+        var a = txt.split(""); 
+        for (var j = 0; j < a.length; j++) { 
+            if(a[j] == "h" && a[j] == "i") a[j] = ""
+            if(a[j] == "s") a[j] = ""
+            if(a[j] == "c") a[j] = ""
+            if(a[j] == "a") a[j] = ""
+            if(a[j] == "t") a[j] = ""
+            
+            document.getElementById("demo").innerHTML += a[j];
+        }
+        
+        
+    </script>
+</body>
+</html>

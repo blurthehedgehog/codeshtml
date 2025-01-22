@@ -1,0 +1,278 @@
+:root {
+    --roblox: white;
+    --mainfont:system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  @font-face {
+    font-family: main;
+    src: url(assets/Graphik-Light-Trial.otf);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .etsy {
+    background-image: url(assets/images\ \(1\).png);
+    width: 80px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    margin-left: 20px;
+    transform: translateY(5px);
+  }
+  
+   .categ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+    font-family:var(--mainfont);
+    font-weight: 600;
+    background: transparent;
+    border: none;
+    margin: 10px 10px 0 5px;
+    border-radius: 40px;
+    width: 115px;
+    transition: background-color 0.4s ease;
+  }
+  .categ i {
+    font-size: 16px;
+  }
+  
+  .categ:hover {
+    width: 115px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+  }
+  .search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--mainfont);
+    width: 875px;
+    height: 46px;
+    border: 2px solid black;
+    border-radius: 100px;
+  }
+  
+  .search input {
+    width: 90%;
+    margin-left: 20px;
+    color: #333;
+    font-size: 17px;
+    border: none;
+    outline: none;
+  }
+  
+  .search .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .search .left .icon {
+    width: 38px;
+    height: 38px;
+    background-color: #f1641e;
+    border-radius: 50%;
+    transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: width 0.1s ease, height 0.1s ease;
+  }
+  
+  .search .left .icon:hover {
+    width: 47px;
+    height: 46px;
+    border-radius: 0px 24px 24px 0px;
+  }
+  
+  .search .left .icon i {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    transition: transform 0.4s ease, color 0.4s ease;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .buttons > button {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    transform: translateY(5px);
+  }
+  
+  .favorite:hover, .gift:hover,.cart:hover {
+    width: 45px;
+    height: 45px;
+    background-color: rgba(19, 137, 211, 0.3);
+    border-radius: 50px;
+  }
+  
+  .fav-item,
+  .gift-item,
+  .cart-item {
+    display: none;
+    top: 100%;
+    position: absolute;
+  }
+  
+  .fav-item .triangle,
+  .gift-item .triangle,
+  .cart-item .triangle {
+    width: 0;
+    height: 0;
+    border-left: 0.35cm solid transparent;
+    border-right: 0.35cm solid transparent;
+    border-bottom: 0.35cm solid rgb(24, 43, 105); 
+    position: absolute;
+    margin-bottom: 35px;
+  }
+  .favorite:hover .fav-item {
+    display: block;
+    background-color: rgb(24, 43, 105);
+    width: 78px;
+    height: 40px;
+    font-family: var(--mainfont);
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    transform: translateY(15px);
+  }
+  
+  .gift,
+  .cart,
+  .favorite {
+    transition: background-color 0.6s ease;
+    border-radius: 50px;
+  }
+  
+  .gift:hover .gift-item {
+    display: block;
+    background-color: rgb(24, 43, 105);
+    width: 50px;
+    height: 40px;
+    font-family: var(--mainfont);
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    transition: all 1s ease;
+    transform: translateY(15px);
+  }
+  .cart:hover .cart-item {
+    display: block;
+    background-color: rgb(24, 43, 105);
+    width: 55px;
+    height: 40px;
+    font-family: var(--mainfont);;
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    transform: translateY(15px);
+  }
+  
+  .Sign {
+    font-family:var(--mainfont);
+    background: transparent;
+    border: none;
+    height: 35px;
+    margin: 10px 30px 0 30px;
+    width: 65px;
+    border-radius: 40px;
+    transition: background-color 0.4s ease;
+    background-size: 0px;
+    font-weight: 600;
+  }
+  .Sign:hover {
+    width: 65px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    transition: background-color 0.4s ease;
+    background-size: 100px;
+  }
+  
+  .upper {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .downside .group > button {
+    font-family:var(--mainfont);
+    border: none;
+    background: transparent;
+    margin-right: 30px;
+    padding: 10px 10px;
+    transition: background-color 0.4s ease;
+    border-radius: 40px;
+    font-weight: 500;
+  }
+  
+  .group .gifts i {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  .downside {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+  }
+  
+  .downside .group > button:hover {
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    padding: 10px 10px;
+  }
+  hr {
+    width: 100%;
+    background-color: white;
+  }
+
+  
+  
+
